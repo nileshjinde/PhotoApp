@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF778A814234C6500251D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778A714234C6500251D13 /* UIKit.framework */; };
+		0EF778AA14234C6500251D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778A914234C6500251D13 /* Foundation.framework */; };
+		0EF778AC14234C6500251D13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778AB14234C6500251D13 /* CoreGraphics.framework */; };
+		0EF778B214234C6500251D13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF778B014234C6500251D13 /* InfoPlist.strings */; };
+		0EF778B414234C6500251D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF778B314234C6500251D13 /* main.m */; };
+		0EF778B814234C6500251D13 /* PhotoAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF778B714234C6500251D13 /* PhotoAppAppDelegate.m */; };
+		0EF778BC14234C6500251D13 /* PhotoAppAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF778BB14234C6500251D13 /* PhotoAppAppDelegate_iPhone.m */; };
+		0EF778BF14234C6500251D13 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF778BD14234C6500251D13 /* MainWindow_iPhone.xib */; };
+		0EF778C314234C6500251D13 /* PhotoAppAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF778C214234C6500251D13 /* PhotoAppAppDelegate_iPad.m */; };
+		0EF778C614234C6500251D13 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF778C414234C6500251D13 /* MainWindow_iPad.xib */; };
+		0EF778CE14234C6600251D13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778CD14234C6600251D13 /* SenTestingKit.framework */; };
+		0EF778CF14234C6600251D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778A714234C6500251D13 /* UIKit.framework */; };
+		0EF778D014234C6600251D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778A914234C6500251D13 /* Foundation.framework */; };
+		0EF778D114234C6600251D13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF778AB14234C6500251D13 /* CoreGraphics.framework */; };
+		0EF778D914234C6600251D13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF778D714234C6600251D13 /* InfoPlist.strings */; };
+		0EF778DB14234C6600251D13 /* PhotoAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0EF778DA14234C6600251D13 /* PhotoAppTests.h */; };
+		0EF778DD14234C6600251D13 /* PhotoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF778DC14234C6600251D13 /* PhotoAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EF778D214234C6600251D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EF7789A14234C6500251D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EF778A214234C6500251D13;
+			remoteInfo = PhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EF778A314234C6500251D13 /* PhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF778A714234C6500251D13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EF778A914234C6500251D13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EF778AB14234C6500251D13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EF778AF14234C6500251D13 /* PhotoApp-Info.plist */ = {isa = PBXFileReference; path = "PhotoApp-Info.plist"; sourceTree = "<group>"; };
+		0EF778B114234C6500251D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EF778B314234C6500251D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EF778B514234C6500251D13 /* PhotoApp-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoApp-Prefix.pch"; sourceTree = "<group>"; };
+		0EF778B614234C6500251D13 /* PhotoAppAppDelegate.h */ = {isa = PBXFileReference; path = PhotoAppAppDelegate.h; sourceTree = "<group>"; };
+		0EF778B714234C6500251D13 /* PhotoAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAppAppDelegate.m; sourceTree = "<group>"; };
+		0EF778BA14234C6500251D13 /* PhotoAppAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = PhotoAppAppDelegate_iPhone.h; path = iPhone/PhotoAppAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		0EF778BB14234C6500251D13 /* PhotoAppAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PhotoAppAppDelegate_iPhone.m; path = iPhone/PhotoAppAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		0EF778BE14234C6500251D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		0EF778C114234C6500251D13 /* PhotoAppAppDelegate_iPad.h */ = {isa = PBXFileReference; name = PhotoAppAppDelegate_iPad.h; path = iPad/PhotoAppAppDelegate_iPad.h; sourceTree = "<group>"; };
+		0EF778C214234C6500251D13 /* PhotoAppAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PhotoAppAppDelegate_iPad.m; path = iPad/PhotoAppAppDelegate_iPad.m; sourceTree = "<group>"; };
+		0EF778C514234C6500251D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		0EF778CC14234C6600251D13 /* PhotoAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF778CD14234C6600251D13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0EF778D614234C6600251D13 /* PhotoAppTests-Info.plist */ = {isa = PBXFileReference; path = "PhotoAppTests-Info.plist"; sourceTree = "<group>"; };
+		0EF778D814234C6600251D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EF778DA14234C6600251D13 /* PhotoAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAppTests.h; sourceTree = "<group>"; };
+		0EF778DC14234C6600251D13 /* PhotoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EF778A014234C6500251D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF778A814234C6500251D13 /* UIKit.framework in Frameworks */,
+				0EF778AA14234C6500251D13 /* Foundation.framework in Frameworks */,
+				0EF778AC14234C6500251D13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EF778C814234C6600251D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF778CE14234C6600251D13 /* SenTestingKit.framework in Frameworks */,
+				0EF778CF14234C6600251D13 /* UIKit.framework in Frameworks */,
+				0EF778D014234C6600251D13 /* Foundation.framework in Frameworks */,
+				0EF778D114234C6600251D13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF7789814234C6500251D13 = {
+			isa = PBXGroup;
+			children = (
+				0EF778AD14234C6500251D13 /* PhotoApp */,
+				0EF778D414234C6600251D13 /* PhotoAppTests */,
+				0EF778A614234C6500251D13 /* Frameworks */,
+				0EF778A414234C6500251D13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EF778A414234C6500251D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778A314234C6500251D13 /* PhotoApp.app */,
+				0EF778CC14234C6600251D13 /* PhotoAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EF778A614234C6500251D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778A714234C6500251D13 /* UIKit.framework */,
+				0EF778A914234C6500251D13 /* Foundation.framework */,
+				0EF778AB14234C6500251D13 /* CoreGraphics.framework */,
+				0EF778CD14234C6600251D13 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EF778AD14234C6500251D13 /* PhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778B614234C6500251D13 /* PhotoAppAppDelegate.h */,
+				0EF778B714234C6500251D13 /* PhotoAppAppDelegate.m */,
+				0EF778B914234C6500251D13 /* iPhone */,
+				0EF778C014234C6500251D13 /* iPad */,
+				0EF778AE14234C6500251D13 /* Supporting Files */,
+			);
+			path = PhotoApp;
+			sourceTree = "<group>";
+		};
+		0EF778AE14234C6500251D13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778AF14234C6500251D13 /* PhotoApp-Info.plist */,
+				0EF778B014234C6500251D13 /* InfoPlist.strings */,
+				0EF778B314234C6500251D13 /* main.m */,
+				0EF778B514234C6500251D13 /* PhotoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EF778B914234C6500251D13 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778BA14234C6500251D13 /* PhotoAppAppDelegate_iPhone.h */,
+				0EF778BB14234C6500251D13 /* PhotoAppAppDelegate_iPhone.m */,
+				0EF778BD14234C6500251D13 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		0EF778C014234C6500251D13 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778C114234C6500251D13 /* PhotoAppAppDelegate_iPad.h */,
+				0EF778C214234C6500251D13 /* PhotoAppAppDelegate_iPad.m */,
+				0EF778C414234C6500251D13 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		0EF778D414234C6600251D13 /* PhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778DA14234C6600251D13 /* PhotoAppTests.h */,
+				0EF778DC14234C6600251D13 /* PhotoAppTests.m */,
+				0EF778D514234C6600251D13 /* Supporting Files */,
+			);
+			path = PhotoAppTests;
+			sourceTree = "<group>";
+		};
+		0EF778D514234C6600251D13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EF778D614234C6600251D13 /* PhotoAppTests-Info.plist */,
+				0EF778D714234C6600251D13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EF778A214234C6500251D13 /* PhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF778E014234C6600251D13 /* Build configuration list for PBXNativeTarget "PhotoApp" */;
+			buildPhases = (
+				0EF7789F14234C6500251D13 /* Sources */,
+				0EF778A014234C6500251D13 /* Frameworks */,
+				0EF778A114234C6500251D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoApp;
+			productName = PhotoApp;
+			productReference = 0EF778A314234C6500251D13 /* PhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EF778CB14234C6600251D13 /* PhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF778E314234C6600251D13 /* Build configuration list for PBXNativeTarget "PhotoAppTests" */;
+			buildPhases = (
+				0EF778C714234C6600251D13 /* Sources */,
+				0EF778C814234C6600251D13 /* Frameworks */,
+				0EF778C914234C6600251D13 /* Resources */,
+				0EF778CA14234C6600251D13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EF778D314234C6600251D13 /* PBXTargetDependency */,
+			);
+			name = PhotoAppTests;
+			productName = PhotoAppTests;
+			productReference = 0EF778CC14234C6600251D13 /* PhotoAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EF7789A14234C6500251D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "webonise software solutions pvt ltd";
+			};
+			buildConfigurationList = 0EF7789D14234C6500251D13 /* Build configuration list for PBXProject "PhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EF7789814234C6500251D13;
+			productRefGroup = 0EF778A414234C6500251D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EF778A214234C6500251D13 /* PhotoApp */,
+				0EF778CB14234C6600251D13 /* PhotoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EF778A114234C6500251D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF778B214234C6500251D13 /* InfoPlist.strings in Resources */,
+				0EF778BF14234C6500251D13 /* MainWindow_iPhone.xib in Resources */,
+				0EF778C614234C6500251D13 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EF778C914234C6600251D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF778D914234C6600251D13 /* InfoPlist.strings in Resources */,
+				0EF778DB14234C6600251D13 /* PhotoAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF778CA14234C6600251D13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF7789F14234C6500251D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF778B414234C6500251D13 /* main.m in Sources */,
+				0EF778B814234C6500251D13 /* PhotoAppAppDelegate.m in Sources */,
+				0EF778BC14234C6500251D13 /* PhotoAppAppDelegate_iPhone.m in Sources */,
+				0EF778C314234C6500251D13 /* PhotoAppAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EF778C714234C6600251D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF778DD14234C6600251D13 /* PhotoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EF778D314234C6600251D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EF778A214234C6500251D13 /* PhotoApp */;
+			targetProxy = 0EF778D214234C6600251D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EF778B014234C6500251D13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF778B114234C6500251D13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EF778BD14234C6500251D13 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF778BE14234C6500251D13 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0EF778C414234C6500251D13 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF778C514234C6500251D13 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		0EF778D714234C6600251D13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF778D814234C6600251D13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EF778DE14234C6600251D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EF778DF14234C6600251D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EF778E114234C6600251D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoApp/PhotoApp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoApp/PhotoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EF778E214234C6600251D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoApp/PhotoApp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoApp/PhotoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EF778E414234C6600251D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoApp.app/PhotoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoApp/PhotoApp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoAppTests/PhotoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0EF778E514234C6600251D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoApp.app/PhotoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoApp/PhotoApp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoAppTests/PhotoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF7789D14234C6500251D13 /* Build configuration list for PBXProject "PhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF778DE14234C6600251D13 /* Debug */,
+				0EF778DF14234C6600251D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EF778E014234C6600251D13 /* Build configuration list for PBXNativeTarget "PhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF778E114234C6600251D13 /* Debug */,
+				0EF778E214234C6600251D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EF778E314234C6600251D13 /* Build configuration list for PBXNativeTarget "PhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF778E414234C6600251D13 /* Debug */,
+				0EF778E514234C6600251D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EF7789A14234C6500251D13 /* Project object */;
+}

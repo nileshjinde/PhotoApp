@@ -9,5 +9,19 @@
 #import <Foundation/Foundation.h>
 
 @interface Appstatus : NSObject
+{
+    NSString *path;
+    NSString *auth_code;
+}
+
+
+-(BOOL)isAppRegistered;
+-(NSString*)getAuthCode;
+-(BOOL)isAppOnline;
+-(NSString*)readAuthCode;
+-(void)saveAuthCode:(NSString*)authKey;
+-(void)setAuthCode:(NSString*)authKey;
+-(void)removeAuthCode;
+-(NSString*)getPath;
 
 @end

@@ -7,7 +7,19 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "PhotoContestViewController.h"
+#import "LoginViewController.h"
+#import "SignupViewController.h"
+
+
+#define USE_APPLICATION_UNIT_TEST 1
+
 
 @interface PhotoAppTests : SenTestCase
-
+{
+      PhotoContestViewController* photoCTester;
+      LoginViewController* loginCTester;
+    SignupViewController *signupCTester;
+}
 @end
+
